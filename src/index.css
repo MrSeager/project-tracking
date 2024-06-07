@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Barlow Condensed', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cs-devider{
+  height: 5px;
+  width: 5px;
+  background-color: hsl(231, 7%, 65%);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.cs-h{
+  min-height: 100vh;
+}
+
+.cs-badge{
+  background-color: hsl(230, 29%, 20%) !important;
+}
+
+.cs-text-color{
+  color: hsl(230, 29%, 20%) !important;
+}
+
+.cs-text-color-2{
+  color: hsl(231, 7%, 65%) !important;
+}
+
+.cs-btn{
+  background-color: hsl(0, 100%, 68%);
+}
+
+.cs-btn:hover{
+  background-color: hsl(0, 100%, 78%);
+}
+
+.cs-fw-400{
+  font-weight: 400 !important;
+}
+
+.cs-fw-700{
+  font-weight: 700 !important;
+}
