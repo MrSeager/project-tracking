@@ -5,6 +5,7 @@ body {
   font-family: 'Barlow Condensed', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -26,10 +27,19 @@ code {
 
 .cs-badge{
   background-color: hsl(230, 29%, 20%) !important;
+  letter-spacing: 1px;
 }
 
 .cs-text-color{
   color: hsl(230, 29%, 20%) !important;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+}
+
+.cs-spacing{
+  letter-spacing: 5px;
 }
 
 .cs-text-color-2{
@@ -37,11 +47,11 @@ code {
 }
 
 .cs-btn{
-  background-color: hsl(0, 100%, 68%);
+  background-color: hsl(0, 100%, 68%) !important;
 }
 
 .cs-btn:hover{
-  background-color: hsl(0, 100%, 78%);
+  background-color: hsl(0, 100%, 78%) !important;
 }
 
 .cs-fw-400{
@@ -50,4 +60,26 @@ code {
 
 .cs-fw-700{
   font-weight: 700 !important;
+}
+
+.cs-img-slide{
+  width: 130%; /* Keep 70% of the original width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Fill the container while preserving aspect ratio */
+}
+
+.cs-bg-pt{
+  position: relative;
+}
+
+.cs-bg-pt::before{
+  position: absolute;
+  content: '';
+  background-color: hsl(207, 33%, 95%);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 50%;
+  z-index: -5;
+  border-radius: 0 0 0 50px;
 }
