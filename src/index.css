@@ -83,3 +83,50 @@ code {
   z-index: -5;
   border-radius: 0 0 0 50px;
 }
+
+.slide-left-col {
+  transform: translateX(-100%);
+  animation: slideIn 1s ease forwards;
+}
+
+.slide-right-col {
+  transform: translateX(100%);
+  animation: slideIn 1s ease forwards;
+}
+
+.slide-top{
+  transform: translateY(-100%);
+  animation: slideIn 1s ease forwards;
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 921px){
+  .cs-bg-pt::before{
+    left: 50%;
+    bottom: 0;
+  }
+
+  .cs-navbar{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .cs-devider{
+    height: .5px;
+    width: 80%;
+    border-radius: 0;
+  }
+
+  .cs-toggle{
+    border: 0 !important;
+  }
+
+  .cs-toggle:focus {
+    box-shadow: none !important;
+}
+}
