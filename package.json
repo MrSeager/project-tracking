@@ -2,7 +2,7 @@
   "name": "project-tracking",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MrSeager.github.io/url-shortening",
+  "homepage": "https://MrSeager.github.io/project-tracking",
   "dependencies": {
     "@formkit/auto-animate": "^0.8.2",
     "@testing-library/jest-dom": "^5.17.0",
